@@ -43,7 +43,7 @@ python demo.py --input figs\001.jpg --backbone resnet50 --ckpt Model\ckpt\res50_
 
 
 ## Dataset
-The Realtor360 dataset currently couldn’t be made publicly available due to some legal privacy issue. Please refer to the MatterporLayout dataset(coming soon), which resembles the Realtor360 in all aspects.
+The Realtor360 dataset currently couldn’t be made publicly available due to some legal privacy issue. Please refer to the MatterportLayout dataset(coming soon), which resembles the Realtor360 in all aspects.
 
 [PanoBasic]: <https://github.com/yindaz/PanoBasic>
 [here]: <https://github.com/sunset1995/HorizonNet/blob/master/preprocess.py>
