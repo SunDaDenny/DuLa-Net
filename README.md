@@ -17,8 +17,6 @@ By this repo you can estimate the 3D room layout from a single indoor RGB panora
 First, please download the [pretrained models] and copy to ./Model/ckpt/ \
 The pretrained models are trained on our Realtor360 dataset with different backbone networks.
 
-Note that because of some license issues, we still can't release whole Realtor360 dataset yet :(
-
 ## Pre-processing
 
 The input panorama should be already aligned with the Manhattan World. We recommand you using the [PanoBasic] in Matlab or the python implementation [here]. Those tool can help you do the pre-processing to align the panorama.
@@ -42,6 +40,10 @@ python demo.py --input figs\001.jpg --backbone resnet50 --ckpt Model\ckpt\res50_
 <img src='figs/002.jpg' width=50%><img src='figs/002_vis.jpg' width=50%>
 <img src='figs/003.jpg' width=50%><img src='figs/003_vis.jpg' width=50%>
 <img src='figs/004.jpg' width=50%><img src='figs/004_vis.jpg' width=50%>
+
+
+## Dataset
+The Realtor360 dataset currently couldn’t be made publicly available due to some legal privacy issue. Please refer to the MatterporLayout dataset(coming soon), which resembles the Realtor360 in all aspects.
 
 [PanoBasic]: <https://github.com/yindaz/PanoBasic>
 [here]: <https://github.com/sunset1995/HorizonNet/blob/master/preprocess.py>
